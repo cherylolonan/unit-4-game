@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="title" class="col-lg-6">
+                <h1>Chaos Emeralds Collector!</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container"> 
+        <div class="row">
+            <div id="rules" class="col-lg-6">
+                <p>Sonic, you will be given a random number by Dr. Robotnik at the start of the game.</p>
+
+                <p>There are four Chaos Emeralds below. By clicking on one you will add a specific amount of points to your total score.</p>
+
+                <p>You win the game by matching your total score to that of Dr. Robotnik's, but you lose if your total score goes above Eggman's.</p>
+
+                <p>The value of each Chaos Emerald is hidden from you until you click on it.</p>
+
+                <p>Each time when the game starts, the game will change the values of each Chaos Emerald.</p>
+
+                <p>Good luck,</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="randomNumber" class="col-md-3">
+                <h1 id="computerRandom"></h1>
+            </div>
+            <div id="tally" class="col-md-3">
+                <h1 id="WonLost"></h1>
+                <h4 id="numberWins">Wins </h4>
+                <h4 id="numberLosses">Losses </h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <img class="blue-crystal" src="assets/images/blue.jpg">
+            <img class="green-crystal" src="assets/images/green.jpg">
+            <img class="purple-crystal" src="assets/images/purple.jpg">
+            <img class="red-crystal" src="assets/images/red.JPG">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="subrow">
+                    <div id="scoreTitle">
+                        <h3 id="yourScore">Your total score is</h3>
+                    </div>
+                </div>
+                <div class="subrow">
+                    <div id="userScore">
+                        <h1 id="userTotal"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
