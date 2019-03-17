@@ -16,10 +16,10 @@ $(document).ready(function() {
         $('#computerRandom').text(randomNumber);
 
 
-        emeraldBlue = Math.floor(Math.random() * 9) + 1;
-        emeraldGreen = Math.floor(Math.random() * 9) + 1;
-        emeraldPurple = Math.floor(Math.random() * 9) + 1;
-        emeraldRed = Math.floor(Math.random() * 9) + 1;
+        emeraldBlue = Math.floor(Math.random() * 11) + 1;
+        emeraldGreen = Math.floor(Math.random() * 11) + 1;
+        emeraldPurple = Math.floor(Math.random() * 11) + 1;
+        emeraldRed = Math.floor(Math.random() * 11) + 1;
         userTotal = 0;
     }
 
