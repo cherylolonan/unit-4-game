@@ -1,5 +1,7 @@
 # unit-4-game
 
+https://cherylolonan.github.io/unit-4-game/
+
 To learn to apply jQuery concepts from class, I followed the instructions below for the Crystal Collector game but gave it my own spin. Enjoy!
 
 ### Option One: CrystalsCollector Game (Recommended)
